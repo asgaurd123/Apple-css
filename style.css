@@ -1,0 +1,382 @@
+:root {
+    --font: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.linked-list {
+    font-family: var(--font);
+    color: #f5f5f7;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    color: #c9c9c9;
+
+}
+
+header {
+    display: flex;
+    position: sticky;
+}
+
+.navbar {
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    height: 59px;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 0px 30px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+li:hover {
+    /* background-color: white; */
+    color: white;
+    cursor: pointer;
+    fill: white;
+}
+
+.special {
+    position: relative;
+    bottom: -2px;
+    right: 8px;
+
+}
+
+.promote {
+    background-color: #f5f5f7;
+    width: 100%;
+    text-align: center;
+    font-family: var(--font);
+    font-weight: 200;
+    padding: 20px 0px;
+}
+
+.learn {
+    text-decoration: none;
+    color: #0066cc;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+
+.symbol {
+    color: #d9e5f2;
+    margin-right: 0.5px;
+}
+
+.learn:hover {
+    text-decoration: underline;
+}
+
+.container {
+    position: relative;
+    left: 0rem;
+    top: 1rem;
+    font-family: var(--font);
+    background-color: #fbfbfd;
+
+    margin-bottom: -44px px;
+    /* width: fit-content; */
+    width: 100%;
+
+}
+
+.container h1 {
+    font-size: 90px;
+    position: relative;
+    left: 32rem;
+    font-family: var(--font);
+    letter-spacing: -4px;
+    font-weight: 600;
+    width: fit-content;
+    padding-top: 23px;
+}
+
+.img {
+    width: 47%;
+    position: relative;
+    left: 284px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.img img {
+    height: 40%;
+    width: 131%;
+    margin-top: 4px;
+    padding: 0;
+
+}
+
+.container span {
+    font-weight: 500;
+    font-size: 36px;
+    position: relative;
+    left: 42rem;
+}
+
+.container2 {
+    position: relative;
+    width: auto;
+    top: 35px;
+    font-family: var(--font);
+    text-align: center;
+    font-weight: 600;
+    font-size: x-large;
+    letter-spacing: 0.8px;
+    background-color: #fbfbfd;
+}
+
+.container span {
+    width: fit-content;
+
+}
+
+.parah {
+    font-size: xx-large;
+    margin-top: 2px;
+
+}
+
+.se {
+    border: 4px solid black;
+    border-radius: 20%;
+    padding: 2px;
+
+
+}
+
+.love {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.marketing {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    font-weight: 400;
+
+
+}
+
+.left {
+    margin-left: 2px;
+}
+
+.right {
+
+    margin-right: 37px;
+
+}
+
+.iphone-se img {
+    width: 57%;
+
+}
+
+.iphone-se {
+    position: relative;
+    top: -53px;
+}
+
+.ipad-air {
+    width: 100%;
+    background-color: black;
+    color: white;
+    /* height: 200px; */
+    height: fit-content;
+}
+
+.container3 {
+    position: relative;
+    width: auto;
+    top: 35px;
+    font-family: var(--font);
+    text-align: center;
+    font-weight: 600;
+    font-size: x-large;
+    letter-spacing: 0.8px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 615px;
+}
+
+.item1 {
+    position: relative;
+    top: 195px;
+    left: 159px;
+
+}
+
+.itme2 {
+    position: relative;
+    bottom: -71px;
+    right: 31px;
+}
+
+.item2 img {
+    height: 561px;
+
+}
+
+.gradient {
+    font-size: 50px;
+    background-image: linear-gradient(-16deg, white, #2d08ef);
+    font-family: 'Sriracha', cursive;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.txt {
+    font-size: 50px;
+}
+
+
+.container4 {
+    margin-top: 5px;
+    background-color: unset;
+    color: black;
+    column-gap: 15px;
+    position: relative;
+    left: -51px;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    row-gap: 15px;
+    
+
+}
+
+.container4 .item1 {
+    position: relative;
+    top: 39px;
+    left: 50px;
+    background-color: #fbfbfd;
+}
+
+.container4 .item1 .img {
+    left: 147px;
+    bottom: 51px;
+}
+
+.container4 .item2 {
+    position: relative;
+    top: 39px;
+    left: 50px;
+    background-color: #fbfbfd;
+}
+
+.img-2 img {
+    /* left: 147px; */
+    bottom: 51px;
+    height: auto;
+    /* width: auto; */
+    position: relative;
+    left: -5px;
+    top: 67px;
+    width: 500px;
+}
+
+.item3 .img-3{
+    position: relative;
+    top:2px;
+    left: 24px;
+}
+
+.img-3 .img{
+    width:20px;
+    margin-bottom: 19px;
+}
+
+.red{
+    color:red;
+    font-size: small;
+    font-weight: 600;
+}
+
+.img-4{
+    position: relative;
+    bottom: 60px;
+}
+
+.img-4 img{
+    width: 537p
+}
+
+.img-5{
+    
+    position: relative;
+    top: -20px;
+
+
+}
+
+.item6{
+    background-image: url('Static/appletv.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.sub-contain{
+    position: relative;
+    top: 410px;
+    width: fit-content;
+    left: 115px;
+
+}
+
+.love-width{
+    width: 600px;
+}
+
+.white{
+    color: white;
+}
+.sub-container{
+    width: 715px;
+}
+
+.footer-contain{
+    position: relative;
+    top: 55px;
+    left: 482px;
+}
+
+svg:hover{
+    fill: white;
+}
+
+.special:hover{
+    fill: white;
+}
+.special svg g path:hover{
+    fill: white;
+}
+.svg-img{
+    background-image: url(	https://www.apple.com/ac/globalnav/7/en_IN/images/…e223a/globalnav_bag_image__yzte50i47ciu_large.svg);
+    width: fit-content;
+}
+#Cart{
+    fill: #d6d6d6;
+}
+#Cart:hover{
+    fill: white;
+}
